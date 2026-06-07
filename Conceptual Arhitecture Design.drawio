@@ -1,0 +1,83 @@
+<mxfile host="app.diagrams.net" pages="2">
+  <diagram name="Page-1" id="yzgkwFziFwp767xrh6f6">
+    <mxGraphModel dx="1030" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9hyKgxWlMq0_T4oyZATo-19" edge="1" parent="1" source="9hyKgxWlMq0_T4oyZATo-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hyKgxWlMq0_T4oyZATo-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="Model" vertex="1">
+          <mxGeometry height="60" width="120" x="130" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="9hyKgxWlMq0_T4oyZATo-5" edge="1" parent="1" source="9hyKgxWlMq0_T4oyZATo-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9hyKgxWlMq0_T4oyZATo-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9hyKgxWlMq0_T4oyZATo-7" edge="1" parent="1" source="9hyKgxWlMq0_T4oyZATo-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="9hyKgxWlMq0_T4oyZATo-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9hyKgxWlMq0_T4oyZATo-16" edge="1" parent="1" source="9hyKgxWlMq0_T4oyZATo-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hyKgxWlMq0_T4oyZATo-2" parent="1" style="whiteSpace=wrap;html=1;" value="GUI" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9hyKgxWlMq0_T4oyZATo-6" edge="1" parent="1" source="9hyKgxWlMq0_T4oyZATo-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9hyKgxWlMq0_T4oyZATo-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9hyKgxWlMq0_T4oyZATo-8" edge="1" parent="1" source="9hyKgxWlMq0_T4oyZATo-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="9hyKgxWlMq0_T4oyZATo-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9hyKgxWlMq0_T4oyZATo-15" edge="1" parent="1" source="9hyKgxWlMq0_T4oyZATo-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hyKgxWlMq0_T4oyZATo-3" parent="1" style="whiteSpace=wrap;html=1;" value="Business Logic" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="9hyKgxWlMq0_T4oyZATo-9" edge="1" parent="1" source="9hyKgxWlMq0_T4oyZATo-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="9hyKgxWlMq0_T4oyZATo-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9hyKgxWlMq0_T4oyZATo-11" edge="1" parent="1" source="9hyKgxWlMq0_T4oyZATo-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9hyKgxWlMq0_T4oyZATo-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9hyKgxWlMq0_T4oyZATo-12" edge="1" parent="1" source="9hyKgxWlMq0_T4oyZATo-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hyKgxWlMq0_T4oyZATo-4" parent="1" style="whiteSpace=wrap;html=1;" value="Data Access" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="9hyKgxWlMq0_T4oyZATo-10" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="MySQL&lt;div&gt;DB&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="60" x="420" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="9hyKgxWlMq0_T4oyZATo-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Data Access Layer - contains the classes containing the queries and the database connection" vertex="1">
+          <mxGeometry height="60" width="100" x="550" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="9hyKgxWlMq0_T4oyZATo-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="GUI Layer -&amp;nbsp; contains the classes defining the user interface" vertex="1">
+          <mxGeometry height="80" width="140" x="580" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9hyKgxWlMq0_T4oyZATo-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Business Layer - contains the classes that encapsulate the application logic" vertex="1">
+          <mxGeometry height="130" width="140" x="590" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9hyKgxWlMq0_T4oyZATo-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Model - contains classes mapped to the database table" vertex="1">
+          <mxGeometry height="115" width="160" x="50" y="252.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="DhvvSrWA3CSZdpq_6C9p" name="Page-2">
+    <mxGraphModel dx="1030" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
