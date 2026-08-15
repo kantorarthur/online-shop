@@ -1,6 +1,6 @@
 # Online Shop Management 
 
-This Online Shop Management Application is a GUI-driven warehouse and sales management application designed to streamline business operations by maintaining clients, managing product inventory, and tracking orders and billing generation.
+This Online Shop Management Application is a warehouse and sales management application designed to streamline business operations by maintaining clients, managing product inventory, and tracking orders and billing generation.
 
 The application leverages a PostgreSQL database for robust, relational data storage and persistence.
 
