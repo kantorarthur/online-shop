@@ -27,6 +27,13 @@ cd online-shop
 java -jar runApplication.jar
 ```
 
+If you get `java.awt.HeadlessException`, a headless Java is being used. Select a full one:
+
+```bash
+sudo update-alternatives --config java   # choose Java 17 or 21, not a headless-only version
+java -version
+```
+
 ## Build
 
 Use this after changing the database password or the code:
