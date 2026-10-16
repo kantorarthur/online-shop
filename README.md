@@ -6,6 +6,19 @@ The application leverages a PostgreSQL database for robust, relational data stor
 
 The development of the application was made using Java (backend logic), Java Swing (user interface), FlatLaf for styling and designing and PostgreSQL(for secure, relational data persistency).
 
+## Design and Architecture
+
+### Package Design
+<img width="695" height="475" alt="Image" src="https://github.com/user-attachments/assets/748d302e-0b51-481d-aad1-08f4c0226cf6" />
+
+### UML Class Diagram
+<img width="651" height="514" alt="Image" src="https://github.com/user-attachments/assets/495a0186-1d3e-42c6-be31-90d2ec955567" />
+
+### Use Case Diagram
+<img width="510" height="706" alt="Image" src="https://github.com/user-attachments/assets/3b94f6d0-fcea-4771-bca8-b464a4ff6bfb" />
+
+
+
 
 ## Requirements to run the application
 
