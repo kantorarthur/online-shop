@@ -1,10 +1,8 @@
 # Online Shop Management 
 
-This Online Shop Management Application is a warehouse and sales management application designed to streamline business operations by maintaining clients, managing product inventory, and tracking orders and billing generation.
+Desktop Java application for warehouse and sales management: clients, product inventory, orders and billing.
 
-The application leverages a PostgreSQL database for robust, relational data storage and persistence.
-
-The development of the application was made using Java (backend logic), Java Swing (user interface), FlatLaf for styling and designing and PostgreSQL(for secure, relational data persistency).
+The application was developed using **Java** (backend logic), **Java Swing** (user interface), **FlatLaf** for styling the interface and **PostgreSQL** (for relational data persistence).
 
 ## Design and Architecture
 
@@ -58,23 +56,23 @@ Use this after changing the database password or the code:
 # Install Maven (Ubuntu/Debian)
 sudo apt install maven
 
-# Build the jar
-mvn clean package
-
 # Enter the directory of the repository
 cd ~/online-shop
+
+# Build the jar
+mvn clean package
 
 # Run the newly built jar
 java -jar target/runApplication.jar
 ```
 
 
-## Short video-presentation of the Application
+## Short video presentation of the application
 https://github.com/user-attachments/assets/9ca84e36-dd53-4059-ba3b-23773fe645c3
 
 ## Features
 
-## 1. Clients Management
+## 1. Client Management
 
 <img width="1042" height="733" alt="image" src="https://github.com/user-attachments/assets/c761875e-4e6d-48eb-8d02-2e065bdc494f" />
 
@@ -90,7 +88,7 @@ https://github.com/user-attachments/assets/9ca84e36-dd53-4059-ba3b-23773fe645c3
 
 •View All Clients: Fetch and render a complete table displaying all registered clients (ID, Name, Email) dynamically.
 
-## 2. Products Management
+## 2. Product Management
 
 <img width="1202" height="745" alt="image" src="https://github.com/user-attachments/assets/fbb45a9d-9668-4107-83d7-b308f06c57c2" />
 
@@ -98,11 +96,11 @@ https://github.com/user-attachments/assets/9ca84e36-dd53-4059-ba3b-23773fe645c3
 
 •Delete Product: Permanently remove an item from the catalog using its Product ID.
 
-•Edit Name / Price / Stock: Granular control tools to modify a specific product's attributes using its identifier.
+•Edit Name / Price / Stock: Modify a product's name, price or stock using its Product ID.
 
 •View Products: Display a live status table showing Quantity/Stock, Price, ID, and Name for all warehouse items.
 
-## 3.Create Order
+## 3. Create Order
 
 <img width="1224" height="733" alt="image" src="https://github.com/user-attachments/assets/746407e0-0b9c-4926-b298-9929ff6788ec" />
 
@@ -110,13 +108,13 @@ https://github.com/user-attachments/assets/9ca84e36-dd53-4059-ba3b-23773fe645c3
 
 •Desired Quantity Inputs: Define how many items the client wants to purchase.
 
-•Place Order: Process transactions dynamically. It verifies warehouse stock, creates an automated receipt, computes the total cost, updates database tables, and decreases the product stock automatically.
+•Place Order: Verifies stock, computes the total cost, generates the bill and updates the product stock.”
 
-## 4. Bills Management
+## 4. Bill Management
 
 <img width="1031" height="712" alt="image" src="https://github.com/user-attachments/assets/a5e450e1-c2a2-4ba9-857d-882530759cc9" />
 
 
-•Comprehensive Tracking: Displays tabular insights containing Order ID, Client Name, Product Name, Quantity purchased, and the computed Total Cost.
+•Displays a table with Order ID, Client Name, Product Name, Quantity purchased, and the computed Total Cost.
 
 
