@@ -6,13 +6,16 @@ The application leverages a PostgreSQL database for robust, relational data stor
 
 The development of the application was made using Java (backend logic), Java Swing (user interface), FlatLaf for styling and designing and PostgreSQL(for secure, relational data persistency).
 
-## Requirements
+
+## Requirements to run the application
 
 - Java 17 or later with GUI support (e.g. `openjdk-17-jdk`, not a `-headless` package)
 - PostgreSQL running on `localhost:5432` (database `postgres`, user `postgres`)
 - Maven (only needed if you change the code or the database password)
 
 **Important:** the database password is set in `ConnectionFactory.java` (`PASS`) and it must match the password of the `postgres` user from the PostgreSQL installed on your computer. If it doesn't match, the application will start, but you won't be able to add or view any data. After changing the password, rebuild the jar (see "Build" below).
+
+
 
 ## Run the application
 
