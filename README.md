@@ -6,10 +6,44 @@ The application leverages a PostgreSQL database for robust, relational data stor
 
 The development of the application was made using Java (backend logic), Java Swing (user interface), FlatLaf for styling and designing and PostgreSQL(for secure, relational data persistency).
 
-# How to run the application
-To run this application, ensure you have Java 17 or higher installed on your system.
+## Requirements
 
-Download the ZIP File, extract it and run "runApplication.jar".
+- Java 17 or later with GUI support (e.g. `openjdk-17-jdk`, not a `-headless` package)
+- PostgreSQL running on `localhost:5432` (database `postgres`, user `postgres`)
+- Maven (only needed if you change the code or the database password)
+
+**Important:** the database password is set in `ConnectionFactory.java` (`PASS`) and it must match the password of the `postgres` user from the PostgreSQL installed on your computer. If it doesn't match, the application will start, but you won't be able to add or view any data. After changing the password, rebuild the jar (see "Build" below).
+
+## Run the application
+
+```bash
+# Clone the repository
+git clone https://github.com/kantorarthur/online-shop
+
+# Enter the main directory of the repository
+cd online-shop
+
+# Execute the program
+java -jar runApplication.jar
+```
+
+## Build
+
+Use this after changing the database password or the code:
+
+```bash
+# Install Maven (Ubuntu/Debian)
+sudo apt install maven
+
+# Build the jar
+mvn clean package
+
+# Enter the directory of the repository
+cd ~/online-shop
+
+# Run the newly built jar
+java -jar target/runApplication.jar
+```
 
 
 ## Short video-presentation of the Application
