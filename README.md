@@ -1,3 +1,5 @@
+<img width="1042" height="733" alt="image" src="https://github.com/user-attachments/assets/c761875e-4e6d-48eb-8d02-2e065bdc494f" />
+
 # Online Shop Management 
 
 Desktop Java application for warehouse and sales management: clients, product inventory, orders and billing.
